@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 809px;
+    background-image: url('../images/banner/banner2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.header-title {
+    width: 525px;
+    height: 228px;
+    margin-left: 845px;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+
+}
+
+.header-description {
+    width: 494px;
+    height: 78px;
+    text-align: right;
+    color: #444343;
+    margin-left: 845px;
+}
+
+.btn {
+    margin: 0 25px 0 0;
+    width: 160px;
+    height: 64px;
+    color: #FFFFFF;
+    background-color: #fa5d24;
+    border: none;
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-left: 1188px;
+}
+
+/* main Sector */
+main {
+    display: flex;
+    justify-content: right;
+
+    width: 1072px;
+    height: 723px;
+    margin-left: 206px;
+    margin-right: 306px;
+}
+.image{
+    margin-top: 55%;
+}
+
+.main-point {
+    width: 416px;
+    height: 400px;
+    position: relative;
+    padding-right: 20px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.info-text {
+    width: 416px;
+    height: 400px;
+    margin-top: 250px;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.info-title {
+    text-align:left;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.info-paragraph {
+    text-align:left;
+    font-weight: 200;
+    font-size: 1.25rem;
+    color: #444343;
+}
+
+ul {
+    list-style:circle;
+    color: #444343;
+}
+
+.my-plan {
+    display: flex;
+    flex-direction: row;
+    justify-items: baseline;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.plan-content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 50px;
+}
+
+/* Section Style */
+
+.plan {
+    margin-top: 150px;
+    padding: 30px;
+    /* margin-right: 50%;
+    margin-left: 50%; */
+    margin: 150px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.skill-container {
+    display: flex;
+    margin-left: 17%;
+    gap: 70px;
+    text-align: center;
+}
+
+.skill-title {
+    margin-top: 10PX;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Mind Sector */
+.mind {
+    width: 1140px;
+    height: 300px;
+    margin-left: 18%;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+    background-image: url('../images/watch.png');
+}
+
+.mind-head {
+    padding: 60px 64px 117px;
+}
+
+.button {
+    margin-top: 30px;
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #F15B22;
+    border: none;
+}
+
+/* Footer Section */
+.main-footer {
+    display: flex;
+
+}
+
+.footer-head {
+    width: 1600px;
+    height: 577px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #151414;
+}
+
+.footer-left {
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footer-description {
+    color: #FFFFFF;
+}
+
+.footer-right {
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.right {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.right-btn {
+    width: 170.11px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
+
+.checkbox {
+    width: 270px;
+    height: 64px;
+    border-radius: 5px;
+
+}
